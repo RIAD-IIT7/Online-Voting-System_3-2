@@ -1,0 +1,124 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Election a Society and People Category Flat Bootstrap Responsive Website Template | Single :: w3layouts</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+<!-- header -->
+<!-- <?php include 'hi.php'; ?> -->
+	<form class="form-horizontal" name = "frmOne" action="insert.php"  method="POST" >
+	<div class="header_bg" style="background-color:#1A5276">
+		<div class="container">
+			<!-----start-header----->
+			<div class="header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo1.png" alt=" " /></a>
+				</div>
+				<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+					</div>
+
+	<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li  class="act"><a href="register.html">Sign Up</a></li>
+							<li><a href="login.html">Vote</a></li>
+							<li><a href="results.html">Results</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->	
+					
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="header_bottom">
+	</div>
+<!-- //end-header -->
+
+				<br><br><br><br>
+				<div class="col-md-12 middle-area" > 
+					<div class="content"> 
+						<h1 class="text-center" style="font-size:350%">Registration</h1>
+
+						<script type="text/javascript">
+						function validateForm()
+						{
+						var a=document.forms["frmOne"]["password"].value;
+						var b=document.forms["frmOne"]["rpassword"].value;
+						if (a!=b)
+						  {
+						  alert("password mismatch");
+						  return false;
+						  }
+						}
+						</script>
+
+						<div class="form-group">
+						<label class="col-sm-3 control-label">Name</label>
+						<div class="col-sm-6">
+						  <input type="text" name="name" class="form-control" id="inputEmail3" placeholder="Name" required>
+						</div>
+						</div>
+						<div class="form-group">
+						<label class="col-sm-3 control-label">NID</label>
+						<div class="col-sm-6">
+						  <input type="text" name="nid" class="form-control" id="inputEmail3" placeholder="NID" required>
+						</div>
+						</div>
+						<div class="form-group">
+
+						<label class="col-sm-3 control-label">Username</label>
+						<div class="col-sm-6">
+						  <input type="text" name="username" class="form-control" id="inputEmail3" placeholder="Username" required>
+						</div>
+						</div>
+						<div class="form-group">
+						<label class="col-sm-3 control-label">Password</label>
+						<div class="col-sm-6">
+						  <input type="password" name="password" class="form-control" id="inputPassword3" placeholder="Password" required>
+						</div>
+						</div>
+						<div class="form-group">
+						<label class="col-sm-3 control-label">Re-Enter Password</label>
+						<div class="col-sm-6">
+						  <input type="password" name="rpassword" class="form-control" id="inputPassword3" placeholder="Password" required>
+						</div>
+						</div>
+						<div class="form-group">
+						<div class="col-sm-offset-3 col-sm-9">
+							<!-- <input type="submit" value="Submit"> -->
+							  <!-- <button align="center" id="submit" type="submit" class="btn btn-success">Submit</button>  -->
+						  <input type="submit" value="Save" class="btn btn-default" onclick="alert('Processing your data!')"/>
+						</div>
+						<div margin-left="100px">
+						  <label class="col-sm-8 control-label">Already a member? Login
+	  					  <a rel="facebox" href="login.html">Here</a><br></label><br>
+						</div>
+						</div>
+						</form> 
+						<b><marquee style="color:blue;font-size:200%"><p>****  Please Provide Correct Information To Register Successfully  ****</p></marquee> </b>
+						
+					</div>
+				</div>
+</body>
+</html>
